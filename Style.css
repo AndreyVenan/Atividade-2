@@ -1,0 +1,22 @@
+
+.dark {
+    background-color: #121212;
+}
+
+.dark #titulo,
+.dark #Paragrafo {
+    color: white;
+}
+
+.dark .link {
+    background-color: #3b3b3b;
+    color: white;
+    border: 1px solid #3b3b3b;
+}
+.dark a {
+    color: white;
+}
+#titulo,
+#Paragrafo {
+    transition: color 0.3s ease; /* transition deixa a mudança de cor mais suave */
+}
